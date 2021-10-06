@@ -23,14 +23,7 @@
 
 ## 2. 動作確認
 なお、今回はサンプルとして次のような行列を用意した。疎行列ではないが、作成したコードが正しく動作しているかはこれでも確認できるのでよしとする。
-$$A = \left[
-    \begin{matrix}
-    3 & 2 & 1\\
-    1 & 2 & 3\\
-    2 & 1 & 3
-    \end{matrix}
-    \right]
-$$
+<img src="https://latex.codecogs.com/gif.latex?A&space;=&space;\left[&space;\begin{matrix}&space;3&space;&&space;2&space;&&space;1\\&space;1&space;&&space;2&space;&&space;3\\&space;2&space;&&space;1&space;&&space;3&space;\end{matrix}&space;\right]">
 また、ベクトルとして
 $$\bm{x} = \left[
     \begin{matrix}
