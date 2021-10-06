@@ -1,5 +1,3 @@
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 <script type="text/x-mathjax-config">
  MathJax.Hub.Config({
  tex2jax: {
@@ -22,20 +20,9 @@
 ~~~
 
 ## 2. 動作確認
-なお、今回はサンプルとして次のような行列を用意した。疎行列ではないが、作成したコードが正しく動作しているかはこれでも確認できるのでよしとする。
+なお、今回はサンプルとして次のような行列を用意した。疎行列ではないが、作成したコードが正しく動作しているかはこれでも確認できるのでよしとする。<br><br>
 <img src="https://latex.codecogs.com/gif.latex?A&space;=&space;\left[&space;\begin{matrix}&space;3&space;&&space;2&space;&&space;1\\&space;1&space;&&space;2&space;&&space;3\\&space;2&space;&&space;1&space;&&space;3&space;\end{matrix}&space;\right]">
-また、ベクトルとして
-$$\bm{x} = \left[
-    \begin{matrix}
-    1 & 2 & 3
-    \end{matrix}
-    \right]
-$$
-を考え、$\bm{v} = A\bm{x}$を計算する。これは手でも計算でき、結果は
-$$\bm{v} = \left[
-    \begin{matrix}
-    10 \\ 14 \\ 13
-    \end{matrix}
-    \right]
-$$
+<br><br>
+また、ベクトルとしてx = [1 2 3]を考え、v=Axを計算する。これは手でも計算でき、結果は
+v=[10 14 13]
 となるはずである。
